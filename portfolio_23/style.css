@@ -1,0 +1,441 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Space Grotesk", sans-serif;
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  width: 7%;
+  height: 10vh;
+  margin-left: 1em;
+}
+
+svg {
+  width: 100%;
+  height: 100%;
+}
+nav .nav-item a:hover {
+  color: black !important;
+}
+
+
+/* small phone */
+@media screen and (min-width: 375px) {
+  
+  .hero-section {
+    width: 100%;
+    height: 55vh;
+    margin-top: 2px;
+  }
+  .header-text {
+    text-align: center;
+  }
+
+  .subheader-text {
+    width: 80%;
+    margin: 0 auto;
+  }
+  p {
+    color: #b1b1b1;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 12px;
+  }
+  .hero-section .svg-1 {
+    position: absolute;
+    width: 30%;
+    right: 1%;
+    z-index: -2;
+  }
+  .hero-section .svg-2 {
+    position: absolute;
+    width: 56%;
+    left: 34%;
+    bottom: 74%;
+    z-index: -2;
+    transform: rotate(-357deg);
+  }
+  .hero-section span {
+    color: white;
+  }
+
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    height: 20vh;
+    margin: 20px auto;
+  }
+  .hero-buttons input {
+    width: 165px;
+    height: 8vh;
+    margin: auto;
+    border-radius: 50px;
+    border: 1px solid black;
+    font-weight: bold;
+  }
+
+  .resume-btn {
+    background-color: black;
+    color: white;
+  }
+  .talk-btn {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+
+  .scroll {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .about-section {
+    background-color: black;
+    width: 100%;
+    height: 80vh;
+    background-image: url(./assets/mobile/noise.png),
+      url(./assets/mobile/sphere-pattern.png);
+    background-size: cover, 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0 0, right 35% bottom 40%;
+  }
+  .about-section .text {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+  }
+  .about-section .text p {
+    color: white;
+    text-align: justify;
+  }
+  .hire-btn {
+    margin: 20px 40px;
+    width: 165px;
+    height: 8vh;
+    border-radius: 50px;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    color: black;
+  }
+  .title-text {
+    color: white;
+  }
+
+  .service-section {
+    width: 100%;
+  }
+
+  .service-section .text {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+  }
+  .service-section .text-secondary {
+    color: black;
+    text-align: center;
+  }
+  .service-section .title-text {
+    color: black;
+    text-align: center;
+  }
+  .projects {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .top-row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .alpha-project .project-image {
+    width: 100%;
+  }
+
+  .project-image img {
+    max-width: 100%;
+  }
+
+  .button {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-between;
+  }
+
+  .project-details p {
+    text-align: justify;
+  }
+  .btn-text {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin: auto;
+  }
+  .button svg {
+    width: 20%;
+    height: 5vh;
+  }
+
+  .show-btn {
+    width: 165px;
+    height: 8vh;
+    border-radius: 50px;
+    font-weight: bold;
+    border: none;
+    background-color: black;
+    color: white;
+    margin: 4em 4em;
+  }
+  .skill{
+    background-color: black;
+    width: 100%;
+    height: 136vh;
+    background-image: url(./assets/mobile/noise.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .skill .text{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .user-research, .lo-fi, .mock-up{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .skill-title{
+    color: white;
+    font: 2px;
+  }
+
+  .user-research p, .lo-fi p, .mock-up p{
+    text-align: justify;
+  }
+
+  .client{
+    width: 100%;
+
+  }
+
+  .client .text{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .client h1{
+    color: black;
+    text-align: center;
+  }
+  .client p{
+    text-align: center;
+  }
+
+  .client-list{
+    width: 40%;
+    margin: 0 auto;
+  }
+
+  .client-logo{
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .client-logo img{
+    max-width: 100%;
+  }
+  .grayscale { 
+    filter: grayscale(100%); 
+  }
+
+  .contact{
+    width: 100%;
+    margin-top: 6em;
+  }
+
+  .contact .text{
+    width: 80%;
+    margin: 10em auto;
+  }
+
+  .contact h1{
+    color: black;
+    text-align: center;
+  }
+  .contact p{
+    text-align: center;
+  }
+
+  .contact .hire-btn {
+    width: 165px;
+    height: 8vh;
+    border-radius: 50px;
+    font-weight: bold;
+    border: none;
+    background-color: black;
+    color: white;
+    margin: 0.5em 4em;
+  }
+
+  footer{
+    width: 100%;
+    background-color: black;
+  }
+  .footer-links{
+    
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 4em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-link{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-link a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  .contact-links{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contact-links a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  .copyright{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+/* medium phone */
+@media screen and (min-width: 390px) {
+  .header-text {
+    text-align: center;
+    width: 90%;
+  }
+
+  .subheader-text {
+    width: 80%;
+    margin: 0 auto;
+  }
+  p {
+    color: #b1b1b1;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 14px;
+  }
+  .hero-section .svg-1 {
+    position: absolute;
+    width: 30%;
+    right: 7%;
+    z-index: -2;
+  }
+  .hero-section .svg-2 {
+    position: absolute;
+    width: 56%;
+    left: 30%;
+    bottom: 77.5%;
+    z-index: -2;
+    transform: rotate(-357deg);
+  }
+
+  .about-section {
+    background-color: black;
+    width: 100%;
+    height: 74vh;
+    background-image: url(./assets/mobile/noise.png),
+      url(./assets/mobile/sphere-pattern.png);
+    background-size: cover, 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0 0, right 35% bottom 40%;
+  }
+
+  .about-section p{
+    margin-top: 2em;
+  }
+
+  .skill{
+    background-color: black;
+    width: 100%;
+    height: 128vh;
+  }
+}
+
+
+@media screen and (min-width: 400px) {
+  .header-text {
+    text-align: center;
+    width: 90%;
+  }
+
+  .subheader-text {
+    width: 80%;
+    margin: 0 auto;
+  }
+  p {
+    color: #b1b1b1;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 14px;
+  }
+  .hero-section .svg-1 {
+    position: absolute;
+    width: 30%;
+    right: 7%;
+    z-index: -2;
+  }
+  .hero-section .svg-2 {
+    position: absolute;
+    width: 56%;
+    left: 30%;
+    bottom: 78%;
+    z-index: -2;
+    transform: rotate(-355deg);
+  }
+
+  .about-section {
+    background-color: black;
+    width: 100%;
+    height: 66vh;
+    background-image: url(./assets/mobile/noise.png),
+      url(./assets/mobile/sphere-pattern.png);
+    background-size: cover, 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0 0, right 35% bottom 40%;
+  }
+
+  .about-section p{
+    margin-top: 2em;
+  }
+
+  .skill{
+    background-color: black;
+    width: 100%;
+    height: 110vh;
+  }
+}

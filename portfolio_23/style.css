@@ -75,7 +75,7 @@ nav .nav-item a:hover {
     height: 8vh;
     margin: auto;
     border-radius: 50px;
-    border: 1px solid black;
+    border:  1px solid white solid black;
     font-weight: bold;
   }
 
@@ -89,7 +89,7 @@ nav .nav-item a:hover {
   .talk-btn {
     background-color: white;
     color: black;
-    border: 1px solid black;
+    border:  1px solid black;
   }
 
   .scroll {
@@ -376,10 +376,10 @@ nav .nav-item a:hover {
   .hero-section .svg-2 {
     position: absolute;
     width: 56%;
-    left: 30%;
-    bottom: 77.5%;
+    left: 29%;
+    top: 16%;
     z-index: -2;
-    transform: rotate(-357deg);
+    transform: rotate(-356deg);
   }
 
   .about-section {
@@ -531,7 +531,7 @@ nav .nav-item a:hover {
     height: 6vh;
     margin: auto;
     border-radius: 50px;
-    border: 1px solid black;
+    border:  1px solid white solid black;
     font-weight: bold;
   }
   .scroll {
@@ -714,5 +714,284 @@ nav .nav-item a:hover {
     border: none;
     background-color: black;
     color: white;
+  }
+}
+
+/* desktop view  */
+@media screen and (min-width: 1280px) {
+  
+  .hero-section {
+    width: 100%;
+    height: 45vh;
+    margin-top: 2px;
+  }
+  .header-text {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+  }
+  
+  .subheader-text {
+    width: 40%;
+    margin: 0 auto;
+  }
+  p {
+    color: #b1b1b1;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 16px;
+  }
+  .hero-section .svg-1 {
+    position: absolute;
+    width: 12%;
+    right: 30%;
+    z-index: -2;
+  }
+  .hero-section .svg-2 {
+    position: absolute;
+    width: 22%;
+    left: 43%;
+    top: 20%;
+    z-index: -2;
+    transform: rotate(-354.5deg);
+  }
+  
+  .hero-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
+    height: 12vh;
+    margin: 20px auto;
+  }
+  
+  .hero-buttons input {
+    width: 165px;
+    height: 8vh;
+    margin: auto;
+    border-radius: 50px;
+    border:  2px solid black;
+    font-weight: bold;
+  }
+
+  .hero-buttons .resume-btn{
+    border: none;
+  }
+  .scroll {
+    width: 20%;
+    margin: 4em auto 10em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .about-section {
+    background-color: black;
+    width: 100%;
+    height: 120vh;
+    background-image: url(./assets/mobile/noise.png),
+      url(./assets/mobile/sphere-pattern.png);
+    background-size: cover, 80%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0 0, right 35% bottom 10%;
+  }
+  
+  
+  .about-section .text {
+    width: 40%;
+    margin-left: 5em;
+    padding-top: 5em;
+  }
+  .about-section .text p {
+    color: white;
+    text-align: justify;
+  }
+  
+  .title-text {
+    color: white;
+  }
+  
+  
+  .hire-btn {
+    margin: 3em 5em;
+    width: 165px;
+    height: 8vh;
+    border-radius: 50px;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    color: black;
+  }
+  
+  /* service section */
+  
+  .service-section {
+    width: 100%;
+    height: 180vh;
+  }
+  .service-section .text {
+    width: 50%;
+    margin: auto;
+    padding-top: 5em;
+  }
+  
+  .service-section .title-text {
+    width: 60%;
+    color: black;
+    margin: 0 auto;
+  }
+  .projects {
+    width: 60%;
+    margin: 20px auto;
+    height: 120vh;
+  }
+  
+  .top-row, .bottom-row {
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .alpha-project, .siel-project, .bond-healthcare, .docamet{
+    width: 40%;
+  }
+  .alpha-project .project-image {
+    width: 100%;
+  }
+  
+  .project-image img {
+    max-width: 100%;
+  }
+  
+  .button {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+  }
+  
+  .project-details p {
+    text-align: justify;
+  }
+  .btn-text {
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    margin: auto;
+  }
+  .button svg {
+    width: 20%;
+    height: 5vh;
+  }
+  
+  .show-btn {
+    width: 165px;
+    height: 8vh;
+    border-radius: 50px;
+    font-weight: bold;
+    border: none;
+    background-color: black;
+    color: white;
+    margin: 5em 20em;
+  }
+  
+  
+  
+  .skill{
+    height: 280vh;
+  }
+  
+  .skill .text {
+    width: 50%;
+    margin-left: 8em;
+    padding-top: 5em;
+  }
+  
+  .skill .title-text {
+    width: 60%;
+    color: white;
+  }
+  
+  .user-research, .mock-up{
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .lo-fi{
+    width: 80%;
+    height: 70vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .details{
+    width: 45%;
+    height: 50vh;
+  }
+  .details h6{
+    font-size: 24px;
+  }
+  .details p{
+    font-size: 16px;
+  }
+  
+  .image-container{
+    display: inline-block;
+    width: 55%;
+  }
+  
+  .image-container img{
+    max-width: 100%;
+  }
+
+  .client {
+    width: 100%;
+    height: 60vh;
+  }
+  .client .text {
+    width: 50%;
+    margin: auto;
+    padding-top: 5em;
+  }
+  
+  .client .title-text {
+    width: 60%;
+    color: black;
+    margin: 0 auto;
+  }
+  .client-list{
+    margin-top: 3em;
+  }
+
+  .contact .hire-btn{
+    width: 165px;
+    height: 8vh;
+    margin: 2em 27em;
+  }
+  .footer-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-link{
+    width: 40%;
+  }
+  .contact-links{
+    width: 40%;
+  }
+  .copyright{
+    width: 30%;
   }
 }

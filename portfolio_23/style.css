@@ -23,7 +23,7 @@ nav .nav-item a:hover {
 
 
 /* small phone */
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 360px) {
   
   .hero-section {
     width: 100%;
@@ -54,7 +54,7 @@ nav .nav-item a:hover {
     position: absolute;
     width: 56%;
     left: 34%;
-    bottom: 74%;
+    top: 17%;
     z-index: -2;
     transform: rotate(-357deg);
   }

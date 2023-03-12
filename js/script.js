@@ -29,6 +29,13 @@ $(document).ready(function() {
 
 
 
+$(document).ready(function() {
+    $("#resume").click(function()
+    {
+        window.location.href = "https://drive.google.com/drive/my-drive";
+    });
+});
+
 
 $(document).ready(function() {
     $(".hire-btn").click(function()

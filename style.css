@@ -871,6 +871,7 @@ nav .nav-item a:hover {
     flex-direction: row;
     width: 50%;
     justify-content: space-between;
+    cursor: pointer;
   }
   
   .project-details p {
@@ -881,6 +882,7 @@ nav .nav-item a:hover {
     font-weight: bold;
     color: black;
     margin: auto;
+    cursor: pointer;
   }
   .button svg {
     width: 20%;

@@ -32,7 +32,7 @@ $(document).ready(function() {
 $(document).ready(function() {
     $("#resume").click(function()
     {
-        window.location.href = "https://drive.google.com/drive/my-drive";
+        window.location.href = "https://drive.google.com/drive/folders/19Pg5wiCl0p1l0dK3sqiYufv-do-Z9MRu";
     });
 });
 

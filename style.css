@@ -400,7 +400,6 @@ nav .nav-item a:hover {
   .skill{
     background-color: black;
     width: 100%;
-    height: 128vh;
   }
 }
 
@@ -469,7 +468,7 @@ nav .nav-item a:hover {
   }
 }
 
-@media screen and (min-width: 414px) {
+@media screen and (min-width: 414px){
   .hero-section .svg-2 {
     position: absolute;
     width: 56%;
@@ -478,6 +477,7 @@ nav .nav-item a:hover {
     z-index: -2;
     transform: rotate(-355deg);
   }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -996,4 +996,16 @@ nav .nav-item a:hover {
   .copyright{
     width: 30%;
   }
+}
+
+@media screen and (min-width:1366px) {
+  .hero-section .svg-2 {
+    position: absolute;
+    width: 22%;
+    left: 43%;
+    top: 21%;
+    z-index: -2;
+    transform: rotate(-356deg);
+  }
+
 }
